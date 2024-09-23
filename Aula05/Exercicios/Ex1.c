@@ -1,7 +1,6 @@
 #include <stdio.h>
 
-// Função que recebe ponteiros e soma 100 aos valores apontados
-void adicionarCem(int *p1, int *p2, int *p3) {
+void addCem(int *p1, int *p2, int *p3) {
     *p1 += 100;
     *p2 += 100;
     *p3 += 100;
@@ -9,33 +8,25 @@ void adicionarCem(int *p1, int *p2, int *p3) {
 
 int main() {
 
-    // Declaração das variáveis
-    int var1, var2, var3;
-
-    // Declaração dos ponteiros
+    int v1, v2, v3;
     int *p1, *p2, *p3;
 
-    // Recebe os valores das variáveis
-    printf("Digite o valor da primeira variável: ");
-    scanf("%d", &var1);
-    printf("Digite o valor da segunda variável: ");
-    scanf("%d", &var2);
-    printf("Digite o valor da terceira variável: ");
-    scanf("%d", &var3);
+    printf("Digite o valor da primeira variavel: ");
+    scanf("%d", &v1);
+    printf("Digite o valor da segunda variavel: ");
+    scanf("%d", &v2);
+    printf("Digite o valor da terceira variavel: ");
+    scanf("%d", &v3);
 
-    // Ponteiros apontando para as variáveis
-    p1 = &var1;
-    p2 = &var2;
-    p3 = &var3;
+    p1 = &v1;
+    p2 = &v2;
+    p3 = &v3;
 
-    // Chama a função para modificar os valores
-    adicionarCem(p1, p2, p3);
+    addCem(p1, p2, p3);
 
-    // Imprime os valores finais
-    printf("Valores finais:\n");
-    printf("Variável 1: %d\n", var1);
-    printf("Variável 2: %d\n", var2);
-    printf("Variável 3: %d\n", var3);
-
+    printf("Valores finais:\n\n");
+    printf("Variavel 1: %d\n", v1);
+    printf("Variavel 2: %d\n", v2);
+    printf("Variavel 3: %d\n", v3);
     return 0;
 }
