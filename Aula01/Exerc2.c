@@ -2,24 +2,16 @@
 #include<stdlib.h>
 
 int main() {
-    
-    int x, y;
+    int a, b;
 
     printf("Informe dois numeros: \n\n");
-    scanf("%d %d", &x, &y);
+    scanf("%d %d", &a, &b);
 
-    if(x == y){
-        printf("Os numeros sao iguais \n\n\n");
+    if(a == b){
+        printf("Os numeros sao iguais \n\n");
+    } else{
+        printf("Os numeros nao sao iguais\n\n");
     }
-    
-    else if(x > y) {
-        printf("O primeiro e maior \n\n\n");
-    }
-    
-    else if(x < y){
-        printf("O segundo e maior \n\n\n");
-    }
-    
     system("pause");
     return 0;
 }

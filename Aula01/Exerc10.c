@@ -11,9 +11,9 @@ int main() {
 
             printf("\n\n\t\t captura de i em: %d \n\n", i);
             break;
-            printf("Observe que esta mensagem  não será impressa! DENOVO >:ooo ");
+            printf("Observe que esta mensagem  não será impressa! >:o ");
         }
-        
+
         printf("Valor de i: %d \n", i);
     }
 
