@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "629db29741517aaa",
@@ -149,9 +148,9 @@
   },
   "active": "265eda513c0229f5",
   "lastOpenFiles": [
-    "Pasted image 20241014204821.png",
     "Structs.md",
+    "Linguagem C.md",
     "Structs - TempAnki.md",
-    "Linguagem C.md"
+    "Pasted image 20241014204821.png"
   ]
 }
