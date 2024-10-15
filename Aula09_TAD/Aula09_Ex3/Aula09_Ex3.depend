@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1728942690 source:c:\users\guilh\desktop\gludgero\githubprojects\ifsp\estruturas_de_dados_ifsp\aula09_tad\aula09_ex3\my_lib.c
+	<stdio.h>
+	<stdlib.h>
+	"my_lib.h"
+
+1728942720 c:\users\guilh\desktop\gludgero\githubprojects\ifsp\estruturas_de_dados_ifsp\aula09_tad\aula09_ex3\my_lib.h
+

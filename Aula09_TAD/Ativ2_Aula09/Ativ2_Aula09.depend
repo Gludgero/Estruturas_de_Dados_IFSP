@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1728427784 source:c:\users\guilh\desktop\gludgero\githubprojects\ifsp\estruturas_de_dados_ifsp\aula09_tad\ativ2_aula09\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Ativ2.h"
+
+1728426822 c:\users\guilh\desktop\gludgero\githubprojects\ifsp\estruturas_de_dados_ifsp\aula09_tad\ativ2_aula09\ativ2.h
+
+1728427334 source:c:\users\guilh\desktop\gludgero\githubprojects\ifsp\estruturas_de_dados_ifsp\aula09_tad\ativ2_aula09\ativ2lib.c
+	<stdio.h>
+	<stdlib.h>
+	"Ativ2.h"
+	<math.h>
+
